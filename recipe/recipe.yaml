@@ -1,6 +1,6 @@
 context:
   name: pydiverse-colspec
-  version: "0.2.4"
+  version: "0.2.5"
   python_min: '3.11'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/p/${{ name }}/${{ name | replace("-", "_") }}-${{ version }}.tar.gz
-    sha256: 413742217f8ca55b661f10b6faf3e57aa24349d5f091a460cee11ef2bde13ae9
+    sha256: 719bdf5edaa57d112c8c67690aaed8bd53a32c6420eeeebf76104e797e20d035
 
 build:
   script: ${{ PYTHON }} -m pip install .
