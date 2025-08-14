@@ -26,8 +26,8 @@ requirements:
     - pydiverse-common >=0.3.4,<0.4
     - structlog >=25.4.0,<26
   run_constraints:
-    - pydiverse-transform >=0.5.0,<0.6
-    - pydiverse-pipedag >=0.10.0,<0.11
+    - pydiverse-transform >=0.5.3,<0.6
+    - pydiverse-pipedag >=0.10.3,<0.11
     - pyarrow >=19.0.0,<21
     - dataframely >=1.1.0,<2
 
