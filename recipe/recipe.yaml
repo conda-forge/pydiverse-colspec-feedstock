@@ -23,11 +23,11 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pydiverse-common >=0.3.9,<0.4
+    - pydiverse-common >=0.3.10,<0.4
     - structlog >=25.4.0,<26
   run_constraints:
-    - pydiverse-transform >=0.5.0,<0.6
-    - pydiverse-pipedag >=0.10.0,<0.11
+    - pydiverse-transform >=0.5.5,<0.6
+    - pydiverse-pipedag >=0.10.8,<0.11
     - pyarrow >=19.0.0,<21
     - dataframely >=1.1.0,<2
 
