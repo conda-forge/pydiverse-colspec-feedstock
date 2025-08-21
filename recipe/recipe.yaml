@@ -29,7 +29,7 @@ requirements:
     - pydiverse-transform >=0.5.5,<0.6
     - pydiverse-pipedag >=0.10.8,<0.11
     - pyarrow >=19.0.0,<21
-    - dataframely >=1.1.0,<2
+    - dataframely >=1.9.0,<2
 
 tests:
   - python:
