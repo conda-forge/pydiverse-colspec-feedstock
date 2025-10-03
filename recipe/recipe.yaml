@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/p/${{ name }}/${{ name | replace("-", "_") }}-${{ version }}.tar.gz
-    sha256: cf713a9363e9d1b3f355698359779a0428dc8ac79d407671d6c72e08de18f04b
+    sha256: cc9e1e94f132e3e4152b32a672496aaed9228a3a7999bcaa76b32d7774d9a72e
 
 build:
   script: ${{ PYTHON }} -m pip install .
@@ -27,7 +27,7 @@ requirements:
     - structlog >=25.4.0,<26
   run_constraints:
     - pydiverse-transform >=0.6.0,<0.7
-    - pydiverse-pipedag >=0.12.0,<0.13
+    - pydiverse-pipedag >=0.12.0
     - pyarrow >=19.0.0,<22
     - dataframely >=1.13.0,<2
 
