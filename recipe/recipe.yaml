@@ -14,7 +14,7 @@ source:
 build:
   script: ${{ PYTHON }} -m pip install .
   noarch: python
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -28,7 +28,7 @@ requirements:
   run_constraints:
     - pydiverse-transform >=0.6.0,<0.8
     - pydiverse-pipedag >=0.12.0
-    - pyarrow >=19.0.0,<23
+    - pyarrow >=19.0.0,<25
     - dataframely >=2.1.0,<3
 
 tests:
